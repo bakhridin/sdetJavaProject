@@ -3,16 +3,16 @@ package day_18.mentoring_09_01_2022;
 public class Task2 {
     public static void main(String[] args) {
 
-        int num=5;
-        int oddNum=0;
-        int sum=0;
+        int num = 5;
+        int oddNum = 0;
+        int sum = 0;
 
         for (int i = 1; i <= num; i++) {
 
-            oddNum=2*i-1;
+            oddNum = (i * 2) - 1;
             System.out.println(oddNum);
 
-            sum+=oddNum;
+            sum += oddNum;
 
         }
 

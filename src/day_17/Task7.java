@@ -19,7 +19,7 @@ public class Task7 {
         String num2 = "102030405060";
 
 
-      //  System.out.println(""+10%6+"");
+        //  System.out.println(""+10%6+"");
 
 //        for (int k = 0; k < num1.length(); k++) {
 //            char ch1 = num1.charAt(k);
@@ -68,22 +68,20 @@ public class Task7 {
 //
 //        }
 
-            int[] num3={3,6,8};
-            int[]num4={10,20,30,40,50};
-            int num5=0;
-            int num6=0;
+        int[] num3 = {3, 6, 8};
+        int[] num4 = {10, 20, 30, 40, 50};
+        int first = 0;
+        int second = 0;
 
         for (int i = 0; i < num3.length; i++) {
-            num5=num3[i];
-            System.out.println();
-            for (int i1 = 0; i1 < num4.length; i1++) {
-                num6=num4[i1];
-
-                System.out.print(""+num6%num5);
+            first = num3[i];
+            System.out.println("First: "+first);
+            for (int j = 0; j < num4.length; j++) {
+                second = num4[j];
+                System.out.print(" " + second % first + ",");
 
             }
-
-
+            System.out.println();
         }
 
     }

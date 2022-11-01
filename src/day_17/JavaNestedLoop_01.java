@@ -6,6 +6,7 @@ public class JavaNestedLoop_01 {
         int number = 5;
 
         for (int i = 0; i < str.length(); i++) {
+
             for (int j = 1; j <= number; j++) {
 
                 System.out.print(" " + str.charAt(i) + j + " ");
